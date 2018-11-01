@@ -43,11 +43,6 @@ console.log("bryanNilsen2 New Class: ", bryanNilsen2)
 console.log("bryanNilsen2 New Class with MakeFullName: ", bryanNilsen2.makeFullName)
 
 
-
-
-
-
-
 // Make a childCare class where you can pass in any child and care giver as properties with methods to change diaper (console logs an inspirational quote to the care giver), and to store behavior in a properties (good or bad ect) using a setter.
 
 class ChildCare {
@@ -64,7 +59,7 @@ class ChildCare {
         this._behavior = behaving
     }
     get behavior(){
-        return `your child ${this._behavior}`
+        return `Your child ${this._behavior}`
     }
 }
 
@@ -77,4 +72,4 @@ const babysittingScenario = new ChildCare(childcareProperties)
 babysittingScenario.behavior = "played nicely"
 
 console.log("Changed Diaper: ", babysittingScenario.changeDiaper)
-console.log("How did your child behave: ", babysittingScenario.behavior)
+console.log("How did your child behave? ", babysittingScenario.behavior)
